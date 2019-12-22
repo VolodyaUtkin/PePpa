@@ -47,7 +47,7 @@ class Menu(Frame):
                     variable=self.job2
                     ).grid(row=3, column=2, sticky=W)
         Label(self,
-              text="Amount:"
+              text="Оценка:"
               ).grid(row=3, column=3, sticky=W)
         self.job22_amount = Entry(self)
         self.job22_amount.grid(row=3, column=4, sticky=W)
@@ -57,7 +57,7 @@ class Menu(Frame):
               text="Работа 3 "
               ).grid(row=4, column=0, sticky=W)
         Label(self,
-              text="Amount:"
+              text="Оценка:"
               ).grid(row=4, column=3, sticky=W)
         self.job31_amount = Entry(self)
         assert isinstance(W, object)
@@ -67,7 +67,7 @@ class Menu(Frame):
                     variable=self.job3
                     ).grid(row=4, column=2, sticky=W)
         Label(self,
-              text="Amount:"
+              text="Оценка:"
               ).grid(row=4, column=3, sticky=W)
         self.job32_amount = Entry(self)
         self.job32_amount.grid(row=4, column=4, sticky=W)
