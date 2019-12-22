@@ -27,7 +27,7 @@ class Menu(Frame):
                     variable=self.job1
                     ).grid(row=2, column=2, sticky=W)
         Label(self,
-              text="Amount:"
+              text="Оценка:"
               ).grid(row=2, column=3, sticky=W)
         self.job12_amount = Entry(self)
         self.job12_amount.grid(row=2, column=4, sticky=W)
